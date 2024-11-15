@@ -1,0 +1,43 @@
+
+    /* Ensures all images have a consistent size */
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Ensures the image is properly scaled */
+        border-radius: 5px; /* Optional: Adds rounded corners to images */
+    }
+
+    /* Adds spacing between images */
+    .row > div {
+        padding: 5px; /* Adds padding around each column */
+    }
+
+    /* Optional: Add a background color or border to the container */
+    .container-fluid {
+        background-color: #f8f9fa; /* Light gray background */
+        padding: 20px; /* Adds some spacing inside the container */
+        border-radius: 8px; /* Rounds the container edges */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+
+    /* Optional styling for rows */
+    .row {
+        margin-bottom: 10px; /* Adds spacing between rows */
+    }
+
+    /* Customize individual rows if needed */
+    .first {
+        background-color: #e9ecef; /* Light background for the first row */
+    }
+
+    .second {
+        background-color: #dee2e6; /* Slightly darker background */
+    }
+
+    .third {
+        background-color: #ced4da; /* Another shade for distinction */
+    }
+
+    .fourth {
+        background-color: #adb5bd; /* Darker background for emphasis */
+    }
