@@ -1,2 +1,49 @@
 
 /* Your CSS Code here. */
+.container-fluid{
+	display:grid;
+	grid-template-rows:4;
+	border:1px solid lightblue;
+	padding:10px;
+}
+.col-sm-1{
+	display:grid;
+	grid-template-columns:repeat(12,100px);
+	width:100px;
+	height:100px;
+	border:1px solid lightblue;
+}
+.img-12-col{
+	width:100px;
+	height:100px;
+	padding:10px;
+}
+.col-sm-2{
+    display:grid;
+	grid-template-columns:repeat(6,100px);
+}
+.img-6-col{
+	width:100px;
+	height:100px;
+	padding:10px;
+}
+.col-sm-4{
+	display:grid;
+	grid-template-columns:repeat(3,100px);
+	border:px solid lightblue;
+}
+.img-3-col{
+	width:100px;
+	height:100px;
+	padding:10px;
+}
+.col-sm-12{
+	display:grid;
+	grid-template-columns:repeat(1,100px);
+}
+.img-1-col{
+	width:100px;
+	height:100px;
+	padding:10px;
+}
+
